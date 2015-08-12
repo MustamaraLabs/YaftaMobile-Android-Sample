@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yaftamobile="http://schemas.android.com/apk/lib/com.yaftamobile.sdk"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.yaftamobile.sdk.ads.banner.YaftaMobileBannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        yaftamobile:adSize="FLEXIBLE"
+        yaftamobile:refreshRate="30" />
+
+</RelativeLayout>

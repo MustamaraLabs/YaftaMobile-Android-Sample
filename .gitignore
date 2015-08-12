@@ -1,0 +1,10 @@
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+proguard/
+bin/
+gen/
+.gradle/
+build/
